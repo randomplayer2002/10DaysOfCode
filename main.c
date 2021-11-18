@@ -1,17 +1,15 @@
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
-    int num,n,digit,i;
+    int num,n,digit,i = 0;
     int rem;
 
     printf("Enter a number: ");
-    scanf("%d",&num);
+    scanf("%d",&n);
     printf("Enter digit to search: ");
     scanf("%d",&digit);
-
-    i=0;
-    n=num;
 
     while(n>0)
     {
@@ -25,3 +23,4 @@ int main()
 
     return 0;
 }
+
