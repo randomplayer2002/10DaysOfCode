@@ -28,7 +28,7 @@ int main()
             mid=(low+high)/2;
             if(a[mid]==key)
             {
-                printf("Element %d FOUND at POSITION %d\n",key,mid);
+                printf("Element %d FOUND at INDEX %d\n",key,mid);
                 exit(0);
             }
 
