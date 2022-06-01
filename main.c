@@ -20,7 +20,6 @@ int main()
     }
 
     printf("Total occurrence of digit is: %d ",i);
-
     return 0;
 }
 
